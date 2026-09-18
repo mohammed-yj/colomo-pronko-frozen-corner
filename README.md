@@ -38,7 +38,12 @@ python scripts/check_lean_audit.py .audit/all-axioms.txt .audit/dependencies.txt
 
 ## Paper and citation
 
-Use [CITATION.cff](CITATION.cff). The supplied final paper has no verified arXiv identifier or DOI of its own; none is assigned here. The Colomo–Pronko and Fischer–Reibnegger identifiers in its bibliography belong to those authors' papers. Release information, if subsequently created, appears on the [repository Releases page](https://github.com/mohammed-yj/colomo-pronko-frozen-corner/releases).
+Yinjie Li, *The Colomo–Pronko conjecture for frozen-corner alternating sign matrices* (2026):
+
+- Paper: [arXiv:2609.14351](https://arxiv.org/abs/2609.14351).
+- Paper and supplementary material deposit: [Zenodo DOI 10.5281/zenodo.22733792](https://doi.org/10.5281/zenodo.22733792). Zenodo's registered metadata classifies this record as a preprint and states that it includes the supplementary material and Lean source package. The DOI identifies that deposit.
+
+Use [CITATION.cff](CITATION.cff) for the preferred paper citation and cite the exact repository commit used for reproducibility. Release information, if subsequently created, appears on the [repository Releases page](https://github.com/mohammed-yj/colomo-pronko-frozen-corner/releases).
 
 ## License and provenance
 
