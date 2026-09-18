@@ -1,0 +1,7 @@
+* text=auto
+*.pdf binary
+paper/*.tex -text
+lean/*.lean -text
+lean/**/*.lean -text
+lean/lean-toolchain -text
+lean/lake-manifest.json -text

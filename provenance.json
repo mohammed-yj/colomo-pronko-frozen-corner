@@ -1,0 +1,262 @@
+{
+  "authority": "Final colomo-pronko-submission package; embedded colomo-pronko-lean.zip",
+  "source_archives": {
+    "colomo-pronko-submission.zip": "a2ce6243730ca0e1eb887c1e8b63837b8b58ef8bd2f8d8b3602d8b7cc66f65e8",
+    "colomo-pronko-submission/colomo-pronko-lean.zip": "4292c8a2874d3c2c51bd3f24db7e3210b3f20cc1863aee757576db364c0d35ee"
+  },
+  "preserved_files": {
+    "lean/CP.lean": {
+      "source": "final-lean-archive/CP.lean",
+      "sha256": "fb873313fdb16a20bfa572478673255a94ec559ce992f87ef0fed0a49d9332de"
+    },
+    "lean/CP/BinomialMatrices.lean": {
+      "source": "final-lean-archive/CP/BinomialMatrices.lean",
+      "sha256": "c0607abccee1fe5cf9ae867eee2bd6463d1903eeddd34fb1fdaab7734684d7cf"
+    },
+    "lean/CP/EvenBridge.lean": {
+      "source": "final-lean-archive/CP/EvenBridge.lean",
+      "sha256": "1044af40919bcc4e843a466cbeb28f8f4afb8f5ad351adbe8ca258b389acd971"
+    },
+    "lean/CP/FiniteBridge.lean": {
+      "source": "final-lean-archive/CP/FiniteBridge.lean",
+      "sha256": "862e787fff1c71e5623279aa6fe1cb80d76581c1af2f893cbaf791b61043188e"
+    },
+    "lean/CP/StageOne.lean": {
+      "source": "final-lean-archive/CP/StageOne.lean",
+      "sha256": "db8239ef7e643dbb9d8313e59fabb9b91a3eb28bdf217903576c4c6f6bda702d"
+    },
+    "lean/CP/Axioms.lean": {
+      "source": "final-lean-archive/CP/Axioms.lean",
+      "sha256": "c4dc9efaa312e442f107abcedac079ac83da8302822de7a8fb5e94860ca5bb64"
+    },
+    "lean/CP/Polynomial.lean": {
+      "source": "final-lean-archive/CP/Polynomial.lean",
+      "sha256": "d46f16734ee4d7bd7ef0a4725d6be525ec5e32f7e94eddee7b5ac1e289fcd256"
+    },
+    "lean/CP/BlockElimination.lean": {
+      "source": "final-lean-archive/CP/BlockElimination.lean",
+      "sha256": "b83ced475c40ccb8ccf0af29f5a99a90b2f92f07b0aa790dd9878c10e7afb288"
+    },
+    "lean/CP/OddBridge.lean": {
+      "source": "final-lean-archive/CP/OddBridge.lean",
+      "sha256": "8283eb40747613214748b6e54a4a616d76bc3228b3ee13b1c9050efadee822ed"
+    },
+    "lean/CP/Connection/CandidateCongruence.lean": {
+      "source": "final-lean-archive/CP/Connection/CandidateCongruence.lean",
+      "sha256": "f152f2763eaf547879e4789eceb6358a5f6b1619eee9de69fd313276b4ded62c"
+    },
+    "lean/CP/Connection/EvenNative.lean": {
+      "source": "final-lean-archive/CP/Connection/EvenNative.lean",
+      "sha256": "fca86b52f7682a742c52c26aa387b475f61d32aea8f47ea625acd6d330009635"
+    },
+    "lean/CP/Connection/OddCandidate.lean": {
+      "source": "final-lean-archive/CP/Connection/OddCandidate.lean",
+      "sha256": "825e5ffe38a5c59598adfff4e74bc1926529b3a2bff1d5505759f70bf6a5a168"
+    },
+    "lean/CP/Connection/OddNormalization.lean": {
+      "source": "final-lean-archive/CP/Connection/OddNormalization.lean",
+      "sha256": "c98ec819380c0d8a0d28cb65148d672825f5ada3252e6cbde08bf3a03712400f"
+    },
+    "lean/CP/Connection/OddInverseFold.lean": {
+      "source": "final-lean-archive/CP/Connection/OddInverseFold.lean",
+      "sha256": "332ea5fcc27d8237a3d929b3becadc2f8c60887a5388842e8727debe7c149aad"
+    },
+    "lean/CP/Connection/EvenGram.lean": {
+      "source": "final-lean-archive/CP/Connection/EvenGram.lean",
+      "sha256": "4954645cb23da0b3ca2d9e41c7a49b1fb8a4fd2af9ad3f79d7625cfd59f37b73"
+    },
+    "lean/CP/Connection/OddFold.lean": {
+      "source": "final-lean-archive/CP/Connection/OddFold.lean",
+      "sha256": "8cf2f579eee7b5c63a12d327488d85004d94f0787d6f7574b2b62bf2ece969fe"
+    },
+    "lean/CP/Connection/EvenFold.lean": {
+      "source": "final-lean-archive/CP/Connection/EvenFold.lean",
+      "sha256": "5960498c1e12478bd735ab30429c0608601b50f0e5423bace4548fe07a0b158c"
+    },
+    "lean/CP/Connection/EvenElimination.lean": {
+      "source": "final-lean-archive/CP/Connection/EvenElimination.lean",
+      "sha256": "ee21d0fb965715b84b7ee2c0481ce4516f9ac24e50dffd4bfd2ede36098f51fb"
+    },
+    "lean/CP/Connection/OddGram.lean": {
+      "source": "final-lean-archive/CP/Connection/OddGram.lean",
+      "sha256": "289a37bf59a8ba8110fe1125b679ac9b97766d78cbc8df0d8bc9b89cfabda283"
+    },
+    "lean/CP/Connection/Coordinates.lean": {
+      "source": "final-lean-archive/CP/Connection/Coordinates.lean",
+      "sha256": "9aaaa010d7828c41f091c20da4a1ceca51a60832d62638db385cabd417e9c72d"
+    },
+    "lean/CP/Connection/OddConnection.lean": {
+      "source": "final-lean-archive/CP/Connection/OddConnection.lean",
+      "sha256": "aea252143791f0aa8618398202a82351ab9e5a2d549ce8ce0a8bdebf12b8aa02"
+    },
+    "lean/CP/Connection/BinomialBlocks.lean": {
+      "source": "final-lean-archive/CP/Connection/BinomialBlocks.lean",
+      "sha256": "810b5f5583218b9d30d088a38d3a18129a58fc719ce9fcec244f2eeff5aa12d5"
+    },
+    "lean/CP/Normalization/DiagonalBridge.lean": {
+      "source": "final-lean-archive/CP/Normalization/DiagonalBridge.lean",
+      "sha256": "4cfe0ee826cfc7c336dab2ed98f307a21a631fb9693a49a3e30f5bfb0f532c7b"
+    },
+    "lean/CP/Normalization/OddBorder.lean": {
+      "source": "final-lean-archive/CP/Normalization/OddBorder.lean",
+      "sha256": "62a6a6d6f7c28ef66618d864f29c8426ab6c6a1cf33cdbdd03f5535e27ab378e"
+    },
+    "lean/CP/Normalization/Scalar.lean": {
+      "source": "final-lean-archive/CP/Normalization/Scalar.lean",
+      "sha256": "a3ab50e1a2a30b905b14fa437f92a25dd30f8881006f90e9859e2e0cbfa7770e"
+    },
+    "lean/CP/BinomialMatrices/KernelTruncation.lean": {
+      "source": "final-lean-archive/CP/BinomialMatrices/KernelTruncation.lean",
+      "sha256": "c1b730d7415695892b2c03fae27c7f56fdaa2773ebe3c2f127bd12cefc2035f5"
+    },
+    "lean/CP/BinomialMatrices/Truncation.lean": {
+      "source": "final-lean-archive/CP/BinomialMatrices/Truncation.lean",
+      "sha256": "2e2e5c09aed5fc10d493a9316da83e0f3ebbb0ade96ac1e1f8bfe3484563f318"
+    },
+    "lean/CP/Polynomial/Fractional.lean": {
+      "source": "final-lean-archive/CP/Polynomial/Fractional.lean",
+      "sha256": "730e7ec032b1d5296d6b490edec3fb7c34325699f883b7d07d75ab10c87d0b7e"
+    },
+    "lean/CP/Polynomial/Adjacent.lean": {
+      "source": "final-lean-archive/CP/Polynomial/Adjacent.lean",
+      "sha256": "8bb0a3a2c752c0527e5be2a2fce279ff02005faa39acf39b662a8ccae0c2afc1"
+    },
+    "lean/CP/Polynomial/Recurrence.lean": {
+      "source": "final-lean-archive/CP/Polynomial/Recurrence.lean",
+      "sha256": "c189c2daecd12b95b53c8e1663d05b42631bc63ae24fa48bd837f1fc4f2d5def"
+    },
+    "lean/CP/Kernel/Transport.lean": {
+      "source": "final-lean-archive/CP/Kernel/Transport.lean",
+      "sha256": "34f6d889610328bcffbcca45564061ef90e08da7977b077c0f9dae5bc7a195a3"
+    },
+    "lean/CP/Kernel/Theta.lean": {
+      "source": "final-lean-archive/CP/Kernel/Theta.lean",
+      "sha256": "57726d41b1f0723f4160d8142ce0c9622fa71b3cb1b417012b8cba62014f0217"
+    },
+    "lean/CP/Kernel/Reflection.lean": {
+      "source": "final-lean-archive/CP/Kernel/Reflection.lean",
+      "sha256": "ff54fc253d5bdc532368faba78d6c88b5f2b3a015c2aacea248db64278663481"
+    },
+    "lean/CP/Kernel/SeriesCoefficients.lean": {
+      "source": "final-lean-archive/CP/Kernel/SeriesCoefficients.lean",
+      "sha256": "6d20d6c4aedac53efd9d7e4ac197bbab4313e614f15958ce08f525117eab3c2d"
+    },
+    "lean/CP/Kernel/Bivariate.lean": {
+      "source": "final-lean-archive/CP/Kernel/Bivariate.lean",
+      "sha256": "318f03daa416a01ef10fc69cd19a2efffa79b108101ad2110ffa5341e425afc9"
+    },
+    "lean/CP/Kernel/ExactTruncation.lean": {
+      "source": "final-lean-archive/CP/Kernel/ExactTruncation.lean",
+      "sha256": "def4b641127b49da0831ebea65e798833c7d15882b63e6a1b2884fb44b319f14"
+    },
+    "lean/CP/Kernel/CReflection.lean": {
+      "source": "final-lean-archive/CP/Kernel/CReflection.lean",
+      "sha256": "b7e7dbcea3f0b5ac1009902eda7742af7d6c828db7bac8c061a5797e762bbc8d"
+    },
+    "lean/CP/Kernel/Univariate.lean": {
+      "source": "final-lean-archive/CP/Kernel/Univariate.lean",
+      "sha256": "a666419d363efda36e478f8acde4bdbbe643170f646e6041aa75ed8c093a2e02"
+    },
+    "lean/CP/Kernel/EvenInverse.lean": {
+      "source": "final-lean-archive/CP/Kernel/EvenInverse.lean",
+      "sha256": "e06c3b43357791a604834551928d6f7bc7d86d4b2ee63c2ed6e8d5bd3f50f586"
+    },
+    "lean/CP/Kernel/DescentAlgebra.lean": {
+      "source": "final-lean-archive/CP/Kernel/DescentAlgebra.lean",
+      "sha256": "b2cace814a3b0439e99c0938f89ab8478e6507f28ea23c225b1c59ee738c836d"
+    },
+    "lean/CP/Kernel/ReflectionIdentity.lean": {
+      "source": "final-lean-archive/CP/Kernel/ReflectionIdentity.lean",
+      "sha256": "6336ad20fde69eb987e749c61545ce04e00ee46b7f4b2f9e3e1f1740d0f556cb"
+    },
+    "lean/CP/Kernel/Bidegree.lean": {
+      "source": "final-lean-archive/CP/Kernel/Bidegree.lean",
+      "sha256": "83b38b51b7b9c19a88a023af63760460d9f5d3da5829b245697a4b4124c92149"
+    },
+    "lean/CP/Kernel/Roots.lean": {
+      "source": "final-lean-archive/CP/Kernel/Roots.lean",
+      "sha256": "5f170f094962668644bf17f5d68db70baf1f3792b7eb264e33bf0839f19ff85a"
+    },
+    "lean/CP/Kernel/ActualC.lean": {
+      "source": "final-lean-archive/CP/Kernel/ActualC.lean",
+      "sha256": "56ea31f21d9e5a834bff3008a9e7cbc461ecb931b41a69057154ff46992290ed"
+    },
+    "lean/CP/Kernel/Odd/KernelLift.lean": {
+      "source": "final-lean-archive/CP/Kernel/Odd/KernelLift.lean",
+      "sha256": "15d35dbcfe5d894967c3b6b77849deb478ac8cae41de0561a9055ec2c64f9899"
+    },
+    "lean/CP/Kernel/Odd/NullVector.lean": {
+      "source": "final-lean-archive/CP/Kernel/Odd/NullVector.lean",
+      "sha256": "7584cc7a55b5fc5f5d63b1329fae777373d3d796b86d293b52942acfc7d71e56"
+    },
+    "lean/CP/Kernel/Odd/NullSubstitution.lean": {
+      "source": "final-lean-archive/CP/Kernel/Odd/NullSubstitution.lean",
+      "sha256": "522aa43d7fc58df20496cf8e941cf76a25e13cc7e9a9378338bf1a6c270679a5"
+    },
+    "lean/CP/Kernel/Odd/Projection.lean": {
+      "source": "final-lean-archive/CP/Kernel/Odd/Projection.lean",
+      "sha256": "015dbb27899bb2a48207e1be7bebf8e66483147b12cf9b54533cb9f168ae9055"
+    },
+    "lean/CP/Kernel/Odd/NullPolynomial.lean": {
+      "source": "final-lean-archive/CP/Kernel/Odd/NullPolynomial.lean",
+      "sha256": "9fb88d2ebc7263c6763b798fa2c25e367d9becb6547156c35e3f3984989d74b6"
+    },
+    "lean/CP/Kernel/Odd/Lift.lean": {
+      "source": "final-lean-archive/CP/Kernel/Odd/Lift.lean",
+      "sha256": "1ff0e1990d03c9a5a416597bff27ab44e7625446b05fe10966be5fc412434b05"
+    },
+    "lean/CP/Kernel/Odd/SigmaSeries.lean": {
+      "source": "final-lean-archive/CP/Kernel/Odd/SigmaSeries.lean",
+      "sha256": "fb8ad722f379af3a6330595617a8b848f5635a4cd76edfc796996a9820feab1d"
+    },
+    "lean/CP/Kernel/Odd/Nullspace.lean": {
+      "source": "final-lean-archive/CP/Kernel/Odd/Nullspace.lean",
+      "sha256": "f5760d4e13cbeb50259623ecdf9a5aaa3d46de86ac03017401609c54682e2142"
+    },
+    "lean/CP/Kernel/Odd/Upgrade.lean": {
+      "source": "final-lean-archive/CP/Kernel/Odd/Upgrade.lean",
+      "sha256": "700e059a265feaa4aed3357f7a9175ade8453f7ca695f96e955a7cbb09ab8615"
+    },
+    "lean/lean-toolchain": {
+      "source": "final-lean-archive/lean-toolchain",
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    "lean/lake-manifest.json": {
+      "source": "final-lean-archive/lake-manifest.json",
+      "sha256": "7163e38a2a3814f8e6231743db6f7b25497a41a2cdb3ab2fdd171c4652e86606"
+    },
+    "lean/lakefile.lean": {
+      "source": "final-lean-archive/lakefile.lean",
+      "sha256": "5b5e9480cb56e291181b01e07350285dcfd6c150b012e733e984e8a86d6205c1"
+    },
+    "lean/tools/frontend.lean": {
+      "source": "final-lean-archive/tools/frontend.lean",
+      "sha256": "ecb3e6f18883b1f2de5ff01e1893783f1cad5c49bc234ec92aa7ac62460fdb8e"
+    },
+    "lean/tools/Dependencies.lean": {
+      "source": "final-lean-archive/tools/Dependencies.lean",
+      "sha256": "bb6eef1991a44d8895e1080b1deb18f1ecffca91e470919742046f96ad21cc53"
+    },
+    "lean/tools/EvenCoreAudit.lean": {
+      "source": "final-lean-archive/tools/EvenCoreAudit.lean",
+      "sha256": "d1e0538f20e3229eaf35790b79b7ccb0a05d39117d437b79f99c488802d389d1"
+    },
+    "paper/colomo-pronko-conjecture.tex": {
+      "source": "final-submission/colomo-pronko-conjecture.tex",
+      "sha256": "becba35fe97f2631cbfb89185af24e13e69fe163db3105c23d98122ded182c2e"
+    },
+    "paper/colomo-pronko-conjecture.pdf": {
+      "source": "final-submission/colomo-pronko-conjecture.pdf",
+      "sha256": "5f3bd3359466032739d186b9010f48404fbbf8e86b1cc7b2ad19528cb22b507f"
+    },
+    "paper/colomo-pronko-supplement.tex": {
+      "source": "final-submission/colomo-pronko-supplement.tex",
+      "sha256": "6921d071e06331951fa880b6da0cf5c4be04d55d48ca73c278a6df3ac305ed39"
+    },
+    "paper/colomo-pronko-supplement.pdf": {
+      "source": "final-submission/colomo-pronko-supplement.pdf",
+      "sha256": "12c39da49e675a1df21bba191622f0d5605d8e4da1ae15e345450f5b83570c76"
+    }
+  },
+  "new_files": "Repository documentation, AllAxioms audit, scripts, symbolic certificate transcription and exact regression checks are release additions, not historical scripts."
+}

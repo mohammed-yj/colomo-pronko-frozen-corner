@@ -1,0 +1,5049 @@
+{
+  "command": "lake env lean tools/AllAxioms.lean",
+  "theorem_declarations": 1103,
+  "theorems": {
+    "CP.Adjacent.L.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_explicit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_explicit._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_explicit._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_explicit._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_initial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_initial._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_step._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_step._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_to_L": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.W_to_L._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.adjacent_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.adjacent_pair._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.adjacent_pair._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.g.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.g_recurrence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.g_recurrence._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.g_recurrence._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.g_recurrence._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.g_recurrence._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Adjacent.recurrence_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.B.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.B_eq_signed_T_R": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.B_eq_signed_T_R._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.B_eq_signed_T_R._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.B_eq_signed_T_R._proof_3": [
+      "propext"
+    ],
+    "CP.B_eq_signed_T_R._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.B_eq_signed_T_R._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.B_eq_signed_T_R._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.B_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.B_mul_T": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.B_det_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.B_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.EvenNormalizationInput.candidate_total": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.EvenNormalizationInput.unfrozen_true": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.H.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.H0.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.H0_below": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.H0_below._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.H0_diagonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.H0_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.H0_entry._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.H0_entry._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.LL.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.LL_blocks": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.LL_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.LR.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.LR_blocks": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.LR_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.OddNormalizationInput.candidate_total": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.OddNormalizationInput.unfrozen_true": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.RL.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.RL_blocks": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.RL_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.RR.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.RR_blocks": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.RR_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.addedEmbedding._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.addedEmbedding._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.addedEmbedding._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.addedEmbedding._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.asmProduct_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.baseL.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.baseL_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.base_core_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.blocks_add": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.blocks_reconstruct": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.blocks_sub": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.blocks_transpose": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.borderTail._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.borderTail._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.borderTail._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.borderTail._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.borderTail.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.borderTail_last": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.borderTail_last._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.borderTail_left": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.borderTail_zero": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back._proof_10": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back._proof_11": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back._proof_12": [
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back._proof_13": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back._proof_14": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back._proof_15": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back._proof_16": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back._proof_17": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_add_back._proof_9": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.candidate_tail_det": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.centeredGammaOdd_center_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.centeredGammaOdd_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.connectionB.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.connectionB_LL": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.connectionB_LL._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.connectionB_LR": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.connectionB_LR._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.connectionB_blocks": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.connectionB_det_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.connection_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.det_H": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.det_H0": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.det_oddAlpha": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenC.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenEliminated.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenEliminatedInverse.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenEliminated_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenEliminated_right_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenGamma_anti": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenGamma_anti._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenGamma_right_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenGamma_right_inverse._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenX_det_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenX_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenX_right_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.evenX_right_inverse._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_baseL_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_baseL_det_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_bridge_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_candidate_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_candidate_tail_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_connection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_connection_native": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_finite_bridge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_relative_bridge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_scalar_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_scalar_relation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.even_tailFirst_LL": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.freeD_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.freeD_congruence._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.freeD_inverseGram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.freeOddS_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.freeOddS_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.freeOddS_inverseGram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.gammaOdd_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.gram_normalization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.gram_normalization_blocks": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.head_diagonal_after_tailFirst": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.head_diagonal_after_tailFirst._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.head_diagonal_after_tailFirst._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.head_diagonal_after_tailFirst._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.head_diagonal_after_tailFirst._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.head_diagonal_after_tailFirst._proof_5": [
+      "propext"
+    ],
+    "CP.Connection.head_diagonal_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.inverseGram_LL_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.inverseGram_LL_congruence._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.inverseGram_LR": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.inverseGram_RL": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.inverseGram_RL._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.inverseGram_RR": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.inverseGram_odd_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.kernelTail._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.kernelTail._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.kernelTail._proof_7": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.kernelTail._proof_8": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.kernelTail.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.kernelTail_zero": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.mul_oddCorrection_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.mul_oddE_castSucc": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.mul_oddE_last": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.mul_oddE_transpose_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.nu_rev_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oMatrix_center_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oMatrix_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oMatrix_skew": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddA.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddAlpha.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddAlpha_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddCenter._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddCenter._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddCenter.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddCenter_rev": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddCenter_rev._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddCorrection.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddE.eq_1": [
+      "propext"
+    ],
+    "CP.Connection.oddE_mul_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddEliminated.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddEliminatedInverse.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddEliminated_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddEliminated_right_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddH.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLeft._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLeft._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLeft.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLeft_inj": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLeft_ne_center": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLeft_ne_center._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLeft_ne_rev": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLeft_ne_rev._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLower.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLower_center": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddLower_left": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPairEquiv._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPairEquiv._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPairEquiv.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPair_center": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPair_center._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPair_left": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPair_rev": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPair_rev._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPair_rev._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPair_right": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddPair_right._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddV.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddX.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddX_det_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddZ.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddZ_center_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddZ_center_row._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddZ_center_row._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddZ_mul_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.oddZ_mul_inverse._proof_1": [
+      "propext"
+    ],
+    "CP.Connection.oddZ_top": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_baseL_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_baseL_congruence._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_baseL_det_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_bordered_finite_bridge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_bridge_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_candidate_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_candidate_tail_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_connection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_connection_native": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_connection_native._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_finite_bridge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_fold_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_fold_right_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_fold_right_inverse._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_omega_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_omega_coordinate._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_relative_bridge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_scalar_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_scalar_relation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.odd_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.omega_reflection_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.pairedEquiv.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.pairedEquiv_left": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.pairedEquiv_right": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_G_blocks": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_G_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_R_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_R_even._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_R_even._proof_2": [
+      "propext"
+    ],
+    "CP.Connection.paired_R_even._proof_3": [
+      "propext"
+    ],
+    "CP.Connection.paired_R_even._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_add": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_anti_blocks": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_even_right": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_even_right._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_neg": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_omega_blocks": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.paired_sub": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.projected_entry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.reversed_front_det": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.reversed_front_det._proof_9": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.tailDiagonal_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.tailFirst.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.tailFirstEquiv.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.tailFirstEquiv_left_val": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.tailFirstEquiv_right_val": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueD.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueD_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueD_apply._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueD_eq_freeD_add_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueE.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueE_LL": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueE_Lc": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueE_cL": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueE_cc": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueE_det": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueE_tail_blocks": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueE_tail_det": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueOddS.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueOddS_eq_free_add_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Connection.trueOddS_projected_fold": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum_edge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum_edge._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum_edge._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum_step._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum_step._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum_step._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum_step._proof_4": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chuSum_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chu_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chu_product._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chu_product._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chu_product._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chu_product._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chu_product._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chu_product._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chu_product._proof_7": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.chu_product._proof_8": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.finite_chu": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.finite_chu._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.finite_chu._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.finite_chu._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.finite_chu._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_cleared": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_cleared._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_cleared._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_substitution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_substitution._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_substitution._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_substitution._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_truncation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_truncation._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.fractional_truncation._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gapPoly.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_coeff_recurrence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_coeff_vanish": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_coeff_vanish._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_coeff_vanish._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_coeff_vanish._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_coeff_vanish._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_10": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_7": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_8": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_decomposition._proof_9": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_degree._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_degree._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_degree._proof_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_hyperOp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_hyperOp._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_hyperOp._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_reflect._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_reflect._proof_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_subst_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_subst_coeff._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_subst_coeff._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_subst_coeff._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_subst_coeff_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_truncation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_truncation._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_truncation._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gap_truncation._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gauge_succ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gauge_succ._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.gauge_succ._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_chu_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_chu_sum._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_chu_sum._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_chu_sum._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_chu_sum._proof_4": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_10": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_7": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_8": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_coeff_recurrence._proof_9": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_comp_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_comp_expansion._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_eval_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_hyperOp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_succ_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_succ_coeff._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_succ_coeff._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_succ_coeff._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.h_succ_coeff._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.hyperOp.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.hyperOp_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.one_sub_X_pow_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.phi.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.reflect_h": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.reflect_h._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.reflect_h._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.reflect_h._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.reflect_one_sub_X_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_coeff._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_coeff._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_coeff._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_coeff._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_degree._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_degree._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_degree._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substPoly_eval._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_coeff_recurrence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_coeff_recurrence._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_coeff_recurrence._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_coeff_recurrence._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_coeff_recurrence._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_coeff_recurrence._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_coeff_recurrence._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_coeff_recurrence._proof_7": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_coeff_recurrence._proof_8": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_reflect._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_term_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.subst_term_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Fractional.substitution_denominator_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.G.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.G_inverse_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.G_inverse_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.G_signed_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.K.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.K_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.K_sub_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_cMatrix": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_cMatrix_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_cMatrix_series": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_cMatrix_series._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_inverse_gram_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_inverse_lift_update": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_inverse_lift_update._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_jMatrix": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_nu": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_nu._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_symmetric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.G_vector_series": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.alternant.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.alternant_degrees": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.alternating_dot_nu": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.alternating_dot_nu._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.alternating_dot_nu_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.antiDiagonalPolynomial.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.antiDiagonalPolynomial_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.antiDiagonalPolynomial_coeff._proof_1": [
+      "propext"
+    ],
+    "CP.Kernel.antiDiagonalPolynomial_coeff._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.beval.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.beval_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.beval_eq_evalXY": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.beval_inX": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.beval_inY": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.beval_xx": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.beval_yy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.binomialVector.eq_1": [
+      "propext"
+    ],
+    "CP.Kernel.boundary_kernel_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.boundary_kernel_coeff._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.boundary_kernel_coeff._proof_3": [
+      "propext"
+    ],
+    "CP.Kernel.boundary_kernel_coeff._proof_4": [
+      "propext"
+    ],
+    "CP.Kernel.bracket_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.bracket_degree_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.bracket_sub_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cKernel_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cKernel_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cKernel_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cKernel_reflection._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cKernel_series_cleared": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cKernel_series_exact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cKernel_series_low_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cKernel_sigma_cleared": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cKernel_swap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cMatrix.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cMatrix_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cMatrix_reflection._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cMatrix_skew": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_degree._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_degree._proof_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_diagonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_eval_swap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_first_root": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_first_root._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_first_root._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_reflection._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_second_root": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_sigma": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_sigma._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_sigma._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cNumerator_swap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.c_tail_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.c_tail_reflect_second": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.centeredGammaOdd._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.centeredGammaOdd._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.coeffToField.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.coeffToField_eq_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.column_degree_lt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.column_degree_lt._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.column_degree_lt._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.cp_descent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_dvd_cNumerator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_dvd_of_roots": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_dvd_pNumerator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_field_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_mul_cKernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_mul_pKernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_primitive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.denominator_sigma": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.descentRemainder.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.diagonal_factor_dvd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.epsilon.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.epsilon_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.epsilon_sq._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.evalXY.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.evalXY_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.evalXY_inX": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.evalXY_inY": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.evalXY_swap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.evalXY_xx": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.evalXY_yy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.eval_inX": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.eval_inY": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.fNumerator.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.fNumerator_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.fNumerator_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.fNumerator_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.fNumerator_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.field_one_add_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.field_quadratic_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.field_three_roots_distinct": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.firstBracket.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.gammaOdd.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.gammaOdd_alternating": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.gammaOdd_eq_lift_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.gammaOdd_omega": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.gammaOdd_skew": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.h_reciprocal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.h_reciprocal._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.h_reciprocal_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.h_reciprocal_neg._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.hom_evalXY": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.homogeneous_h_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.homogeneous_h_identity._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.inX.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.inX_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.inY.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.inY_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.jMatrix_lift_update": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.jMatrix_lift_update._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.jMatrix_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.jMatrix_skew": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.j_sub_c_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.kernelMatrix.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.kernelMatrix_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.kernelSeries.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.kernelSeries_denominator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.liftQ_binomial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.liftQ_binomial._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.liftQ_column": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.liftQ_polynomial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.liftQ_polynomial._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.liftQ_polynomial._proof_2": [
+      "propext"
+    ],
+    "CP.Kernel.liftQ_polynomial._proof_3": [
+      "propext"
+    ],
+    "CP.Kernel.liftQ_polynomial._proof_4": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.liftQ_polynomial._proof_5": [
+      "propext"
+    ],
+    "CP.Kernel.liftQ_polynomial._proof_6": [
+      "propext"
+    ],
+    "CP.Kernel.liftQ_transpose_kernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.lift_omega_gammaOdd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.lifted_column": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_degree._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_degree._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_eval_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_eval_zero._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_fractional": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_fractional._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_fractional._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_reflect._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.normalizedP_reflect._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_degree._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_reflect._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_reflect._proof_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_reversal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_reversal._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuImage_reversal._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuPolynomial.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuPolynomial_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuPolynomial_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuPolynomial_eval_neg_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuPolynomial_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuPolynomial_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nuPolynomial_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_center_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_center_pos._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_center_pos._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_center_pos._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_center_pos._proof_4": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_left_omega_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_reversal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_reversal._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_reversal._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_reversal._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_series_exact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_sigma_polynomial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.nu_sigma_polynomial._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.oMatrix_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.oMatrix_lift._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.oMatrix_lift._proof_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.oddBoundary._proof_1": [
+      "propext"
+    ],
+    "CP.Kernel.oddBoundary.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.odd_deleted_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.odd_deleted_inverse._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.odd_deleted_mul_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_det_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_gammaOdd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_gammaOdd._proof_1": [],
+    "CP.Kernel.omega_inverse_eq_J_sub_C": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_kernel_eq_span": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_kernel_eq_span._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_kernel_eq_span._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_kernel_finrank": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_kernel_vector": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_kernel_vector._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_mul_J_sub_C": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_nu_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_odd_rank": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_odd_rank._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.omega_skew": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.one_add_X_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.one_add_X_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pKernel_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pKernel_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pKernel_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pKernel_reflection._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pMatrix.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pMatrix_reflection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pMatrix_reflection._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pMatrix_reflection._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pNumerator.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pNumerator_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pNumerator_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pNumerator_diagonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pNumerator_diagonal._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pNumerator_diagonal_field": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pNumerator_first_pair_root": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pNumerator_reflect_difference": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pNumerator_second_pair_root": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pair_factor_degrees": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.pair_factors_swap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.polynomialSeries.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.polynomialSeries_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.polynomialSeries_denominator_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.polynomialSeries_denominator_unit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.polynomialSeries_evalXY": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.polynomialSeries_inX_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.polynomial_eq_of_eval_off": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.primitive_dvd_of_fraction_dvd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_monomial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_one_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_one_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_one_xx": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_one_yy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_pair_factors": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_scalar": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_separated": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_sub": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflectXY_twice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflect_alternant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflect_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflect_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflect_eval\u2082": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflect_firstBracket": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflect_secondBracket": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflect_starAlternant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.reflect_twice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.remainder_coeff_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.remainder_coeff_zero._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.row_degree_lt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.secondBracket.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.seriesToField_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.shiftedP.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.shiftedP_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.shiftedP_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.shiftedP_eval_neg_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.shifted_h_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.shifted_h_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.shifted_h_degree._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.shifted_h_degree._proof_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma.eq_1": [
+      "propext"
+    ],
+    "CP.Kernel.sigmaPullback.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigmaPullback_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigmaPullback_eval\u2082": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigmaPullback_series": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_theta_u": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_theta_v": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_u": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_u._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_uStar": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_uStar_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_uStar_eval\u2082": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_u_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_u_eval\u2082": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_v": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_v._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_vStar": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_vStar_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_vStar_eval._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_vStar_eval\u2082": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_vStar_eval\u2082._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_v_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_v_eval._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_v_eval\u2082": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.sigma_v_eval\u2082._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.starAlternant.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.substitutedSeries.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.substitutedSeries_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.substitutedSeries_evalXY": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.substitutedSeries_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swapXY.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swapXY_twice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_cKernel_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_coeff._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_coeff._proof_2": [
+      "propext"
+    ],
+    "CP.Kernel.swap_coeff_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_denominator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_fNumerator_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_fNumerator_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_inX": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_inY": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_pKernel_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_pKernel_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_pNumerator_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_pNumerator_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_reflect_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_xx": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.swap_yy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.tail_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.thetaStarAlternant.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_comp_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_involution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_star_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_u_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_u_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_v_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_v_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_v_reflect._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.theta_v_reflect._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.u.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uStar.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uStar_eq_shift_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uStar_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uStar_theta": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uStar_theta_parity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uStar_theta_parity._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.u_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.u_degree._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.u_degree._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.u_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.univariateSeries_C": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.univariateSeries_X": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.univariateSeries_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uvStar_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uvStar_pair._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uvStar_pair._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uvStar_pair._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uvStar_pair._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uvStar_pair._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.uvStar_pair._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.v.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_eval._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_theta": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_theta._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_theta._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_theta._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_theta_parity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_theta_parity._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_theta_parity._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.vStar_theta_parity._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.v_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.v_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.v_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.xx.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Kernel.yy.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.R.eq_1": [
+      "propext"
+    ],
+    "CP.R_liftQ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.R_mul_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.R_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.R_transpose": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.beta_previous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.beta_previous._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.beta_previous._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_one._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_10": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_11": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_12": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_7": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_8": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order._proof_9": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order_general": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order_general._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_down_order_general._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.coeff_factorial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.cubic_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.cubic_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.cubic_reflect._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.cubic_reflect._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.denominator_factors": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.lowRange_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.lowRange_bounds._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.low_coeff_recurrence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_four._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_four._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_four._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_large": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_large._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_large._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_large._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_large._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_large._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_large._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_three._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_three._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_recurrence_three._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.normalized_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_certificate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_certificate._proof_1": [
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u1._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u1._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u2._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u2._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u2._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u2._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u2._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_u2._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v0": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v0._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v1._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v1._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v1._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v2._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v2._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v2._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v2._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v2._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v2._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v3._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v3._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v3._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v3._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v3._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_v3._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_w2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_w2._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_w2._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_w2._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.ratio_w2._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recLeft_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recLeft_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recLeft_degree._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recLeft_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recLeft_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_degree._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_degree._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_degree._proof_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_reflect._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_reflect._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_reflect._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_reflect._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.recRight_reflect._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.shifted.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.shifted_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.three_term_recurrence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.three_term_recurrence._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.three_term_recurrence._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Recurrence.u1.eq_1": [
+      "propext"
+    ],
+    "CP.Recurrence.u2.eq_1": [
+      "propext"
+    ],
+    "CP.Recurrence.v1.eq_1": [
+      "propext"
+    ],
+    "CP.Recurrence.v2.eq_1": [
+      "propext"
+    ],
+    "CP.Recurrence.v3.eq_1": [
+      "propext"
+    ],
+    "CP.Recurrence.w2.eq_1": [
+      "propext"
+    ],
+    "CP.Series.G_R_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.G_R_inverse_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.G_mulVec_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.conjugateCandidate.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.conjugateCandidate_mul_G": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.conjugateCandidate_mul_G._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.conjugateCandidate_mul_G._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.conjugateCandidate_mul_G._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.even_G_R_inverse_kernel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.even_G_R_inverse_kernel._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.even_G_R_inverse_kernel._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.geometricColumn.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.geometricColumn_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.geometricColumn_coeff._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.geometricColumn_coeff._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.geometricColumn_coeff._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.negPower.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.negPower_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.negPower_cancel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.negPower_cancel._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.negPower_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.negPower_coeff_C": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.negPower_eq_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.negPower_one_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.negPower_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.positive_power_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.rationalKernel.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.rationalKernel_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.rationalKernel_coeff._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.rationalKernel_coeff._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.rationalKernel_coeff._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.rationalKernel_coeff_degree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.rationalKernel_coeff_degree._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.rationalKernel_denominator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.rescaled_geometric_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.signed_vandermonde": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.sum_fin_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.sum_fin_le._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.sum_fin_le._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.sum_fin_le._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.sum_fin_le._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.Series.transformed_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.StageOne.even_finite_bridge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.StageOne.even_finite_bridge._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.StageOne.even_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.StageOne.even_normalized._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.StageOne.odd_finite_bridge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.StageOne.odd_finite_bridge._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.StageOne.odd_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.StageOne.odd_normalized._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.T.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.T_above": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.T_mul_transpose": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.T_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.T_sq._proof_1": [
+      "propext"
+    ],
+    "CP.T_sq._proof_2": [
+      "propext"
+    ],
+    "CP.U.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.U_below": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.U_diag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.alternating.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.bRow.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.bRow_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.bRow_coeff._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.bRow_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.bRow_expansion._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_factorial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_factorial._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_factorial._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_factorial._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_factorial._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_formula._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_pos._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.b_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.beta_succ_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.beta_succ_three._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.beta_succ_three._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.blocks.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.blocks_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.blocks_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.casoratian_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.centerProjection.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.centerProjection_mulVec": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.centerProjection_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.centerProjection_row._proof_1": [
+      "propext"
+    ],
+    "CP.centerProjection_transpose": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.centered_deleted_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.centered_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.choose_gram_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.choose_gram_sum._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.choose_gram_sum._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.choose_gram_sum._proof_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.coeff_one_sub_X_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.deleteCenter.eq_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.delete_mul_of_zero_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.deleted_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.deleted_right_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.det_G": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.det_U": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.det_diagonal_add_back": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.det_front_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.det_front_unit_upper": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.det_ne_zero_from_right_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.det_update": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.elimination_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.elimination_right_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.even_elimination_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.frontEmbedding._proof_1": [],
+    "CP.frontEmbedding._proof_2": [],
+    "CP.frontEmbedding.eq_1": [],
+    "CP.front_upper_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.front_upper_support._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_coeff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_coeff_palindrome": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_coeff_palindrome._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_coeff_palindrome._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_coeff_palindrome._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_denominator_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_denominator_pos._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_natDegree_lt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_natDegree_lt._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_natDegree_lt._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_two": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.h_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.inverse_from_descent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.inverse_from_descent._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.inverse_from_descent_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.jMatrix.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.liftQ.eq_1": [
+      "propext"
+    ],
+    "CP.liftQ_G": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.liftQ_G._proof_1": [],
+    "CP.liftQ_G._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.liftQ_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.liftQ_left_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.liftQ_omega": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.liftQ_omega._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.liftQ_sandwich_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.liftQ_transpose_alternating": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.mul_R_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.mul_centerProjection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.mul_centerProjection._proof_1": [],
+    "CP.mul_centerProjection._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.mul_outer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.mul_outer._proof_1": [],
+    "CP.normalized_coeff_factorial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.normalized_coeff_factorial._proof_1": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.normalized_coeff_factorial._proof_2": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.normalized_coeff_factorial._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.normalized_coeff_factorial._proof_4": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.normalized_coeff_factorial._proof_5": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.normalized_coeff_factorial._proof_6": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.omega.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.outer_mul_projection_transpose": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.plucker": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.projected_center_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.rank_liftQ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.recurrence_certificate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.rho.eq_1": [
+      "propext"
+    ],
+    "CP.rho_ne_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.rho_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.rho_order_three": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.rho_rho": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.selected_congruence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.selection.eq_1": [
+      "propext"
+    ],
+    "CP.selection_compress": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.selection_intertwine": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.selection_intertwine._proof_3": [
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.signDiagonal.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.signDiagonal_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.signDiagonal_transpose": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.signed_row_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.tailDiagonal.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "CP.tau_rho": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

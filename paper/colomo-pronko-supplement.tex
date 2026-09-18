@@ -1,0 +1,67 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,mathrsfs,amsmath,amssymb,amsthm,mathtools,booktabs,array,longtable,microtype}
+\usepackage[margin=22mm]{geometry}
+\newcommand{\Q}{\mathbb Q}
+\allowdisplaybreaks
+\renewcommand{\thesection}{S.\arabic{section}}
+\title{Supplementary material for\\\emph{The Colomo--Pronko conjecture for frozen-corner alternating sign matrices}}
+\author{Yinjie Li}
+\date{}
+\begin{document}
+\maketitle
+\section{The coefficient certificate}
+The notation is that of Appendix A of the paper. For the common denominator
+\[
+ D=(m-a)(m-a+1)(2m-a-3)(2m-a-2)\prod_{j=1}^4(a+m-j),
+\]
+the eight summands are $D$, $-2Du_1$, $Du_2$, $-Dv_0$, $\tfrac32Dv_1$, $\tfrac32Dv_2$, $-Dv_3$ and $-D\beta_{m-1}w_2$, in that order.
+The resulting polynomials are $N_0=D$ and
+\begin{align*}
+ N_1={}&-2a(a-2m+1)(a-2m+2)(a-2m+3)(a-m-1)\\*
+ &\qquad\cdot(a+m-4)(a+m-3)(a+m-2),\\
+ N_2={}&a(a-1)(a-2m)(a-2m+1)(a-2m+2)(a-2m+3)\\*
+ &\qquad\cdot(a+m-4)(a+m-3),\\
+ N_3={}&2(a-m)(m-1)(2m-3)(a-m-1)(a-m+1)\\*
+ &\qquad\cdot(a+m-4)(a+m-3)(a+m-2),\\
+ N_4={}&-3a(a-m)(m-1)(2m-3)(a-2m+3)(a-m-1)(a+m-4)(a+m-3),\\
+ N_5={}&-3a(a-1)(m-1)(2m-3)(a-2m+2)(a-2m+3)(a-m-1)(a+m-4),\\
+ N_6={}&2a(a-2)(a-1)(m-1)(2m-3)(a-2m+1)(a-2m+2)(a-2m+3),\\
+ N_7={}&-3a(a-1)(a-m)(m-2)(m-1)(3m-7)(3m-5)(a-m-1).
+\end{align*}
+
+Their sum is zero in $\mathbb Z[a,m]$: expansion and collection in $a$ gives zero for every coefficient from $a^0$ through $a^8$. Since $D$ is nonzero in the range proved in Appendix A, division by $D$ gives the coefficient identity used there. The accompanying Lean source proves the same polynomial identity as \texttt{CP.recurrence\_certificate} in \texttt{CP/Polynomial.lean}.
+
+\section{Formalization scope and verification details}
+This section preserves the verification information supplied with the paper before the editorial revision. The editorial pass changes neither the Lean sources nor their evidence of verification, and does not constitute a new Lean build.
+
+The finite-dimensional algebraic core of the proof has been formalized over $\Q$ in Lean 4.19.0, using Mathlib at commit
+\texttt{c44e0c8ee63ca166450922a373c7409c5d26b00b}. This includes the actual refined-polynomial identities, polynomial kernel divisibility and exact truncation, Theorem~7.2, the odd nullspace and central projection, both connections, and the relative bridges (10.5) for arbitrary admissible parameters. Finite matrix indices are represented by \texttt{Fin}; the objects are not defined by demanding the desired matrix identities.
+
+The formal statements with the absolute factor $A_N^2$ take explicit normalization records as arguments. These records specify $\det K_n=A_n$ and the unrestricted enumeration equalities (10.1). They are ordinary hypotheses, with no project axioms asserting their inhabitants. The relative bridges and the core inverse do not depend on these records. ASM combinatorial definitions, the integral input, its Pfaffian evaluation, and the candidate-to-CP/FR identification have not been formalized end to end. The formalization therefore does not constitute an end-to-end Lean proof of the enumeration theorem. The external determinant asymptotics used in Corollary~2.2 of the paper are also outside the formalization.
+
+The accompanying source package includes build instructions, fixed dependency metadata, axiom output, and project dependency reports. The proof modules use no \texttt{sorry}, \texttt{admit}, custom mathematical axioms, or \texttt{native\_decide}. The audited standard logical dependencies are \texttt{propext}, \texttt{Classical.choice}, and \texttt{Quot.sound}. The previously supplied build checked modules through the unmodified official Lean frontend with trust level zero; the supplied clean-runner workflow is configured to check the standard library target. The Lean source code, build instructions and verification details accompany the submission as separate supplementary files.
+
+The project dependency summary is as follows (equation and theorem numbers refer to the paper):
+\begin{center}\small
+\begin{tabular}{p{.27\linewidth}p{.63\linewidth}}
+\toprule Result & Inputs\\\midrule
+Refined identities & Explicit coefficients in (2.2); Appendix~A\\
+Candidate reduction & Refined substitution; finite triangular algebra\\
+True finite determinants & Known integral (5.1); recurrence, adjacent identity, Pfaffian identities, pole cancellation\\
+Even inverse & Finite Pascal identities; actual univariate and bivariate kernels; exact truncation\\
+Odd deleted inverse & Even inverse; finite lift; explicit null vector; central projection\\
+Matrix connections & Even and odd inverse identities; block Gram calculations\\
+Relative bridges & Connections; diagonal addition; leading triangular congruence\\
+Absolute normalization & True determinants at $s=0$; unrestricted ASM theorem; $\det K_n=A_n$\\
+Main theorem & Normalized bridges; candidate reduction; endpoint arguments\\\bottomrule
+\end{tabular}
+\end{center}
+In particular the true determinants are obtained before using the CP determinant, and no nontrivial frozen case supplies a scalar normalization. Polynomial divisibility covers intersections of paired divisors. Formal residues are identified with the fixed analytic contours before they are used; the separate $\Q(y)[[x]]$ computation concerns only the finite matrix bridge.
+
+
+\section{Provenance of the computational checks}
+The coefficient certificate above is an identity in an integer polynomial ring and is part of the proof. It should be distinguished from evaluating kernels or determinants at finitely many matrix sizes. Exact rational and integer checks of such sizes are useful for detecting transcription errors, especially in signs, borders and index reversal, but imply no parameterized theorem. Historical checks reported polynomial orders through $20$, candidate sizes through $16$, direct ASM enumeration through $12$, and even and odd finite bridges for $1\le N\le12$. The original scripts for all these historical ranges are not part of the current reproducibility evidence, so these ranges are not presented as independently rerun experiments. The supplied Lean proof terms, their source hashes, and their build and dependency logs provide a separate reproducible verification layer. None of the arguments above takes a finite computation as a premise.
+
+
+\end{document}

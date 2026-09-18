@@ -1,0 +1,87 @@
+name: Verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact:
+    name: Exact symbolic and determinant checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12.14'
+      - name: Install fixed exact-arithmetic dependencies
+        run: python -m pip install -r verification/requirements.txt
+      - name: Audit source tree and preserved inputs
+        run: python scripts/audit_sources.py
+      - name: Reconstruct universal polynomial certificate
+        run: python verification/symbolic_certificate.py
+      - name: Independently rebuild matrices and enumerate monotone triangles
+        run: python verification/exact_checks.py
+
+  lean:
+    name: Lean build and axiom audit
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12.14'
+      - name: Audit source tree and preserved inputs
+        run: python scripts/audit_sources.py
+      - name: Install fixed Lean toolchain
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --proto '=https' --tlsv1.2 -sSfL \
+            https://raw.githubusercontent.com/leanprover/elan/58e8d545e33641f66dbcbd22c4283109e71757be/elan-init.sh \
+            -o .audit/elan-init.sh
+          sh .audit/elan-init.sh -y --default-toolchain none
+          export PATH="$HOME/.elan/bin:$PATH"
+          elan toolchain install "$(cat lean/lean-toolchain)"
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Fetch locked dependencies and cache
+        working-directory: lean
+        shell: bash
+        run: |
+          set -euo pipefail
+          lake exe cache get
+          python ../scripts/check_dependency_revisions.py
+      - name: Fresh build all proof and explicit axiom modules
+        working-directory: lean
+        shell: bash
+        run: |
+          set -euo pipefail
+          lean --version | tee ../.audit/lean-version.txt
+          lake build CP CP.Axioms 2>&1 | tee ../.audit/lean-build.txt
+      - name: Audit every project theorem and mathematical interface
+        working-directory: lean
+        shell: bash
+        run: |
+          set -euo pipefail
+          lake env lean tools/AllAxioms.lean > ../.audit/all-axioms.txt
+          lake env lean tools/Dependencies.lean > ../.audit/dependencies.txt
+          python ../scripts/check_lean_audit.py ../.audit/all-axioms.txt ../.audit/dependencies.txt
+      - name: Recheck input preservation after build
+        run: python scripts/audit_sources.py
+      - name: Upload fresh audit evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: lean-audit
+          path: |
+            .audit/lean-version.txt
+            .audit/lean-build.txt
+            .audit/all-axioms.txt
+            .audit/dependencies.txt
+          include-hidden-files: true
+          if-no-files-found: warn

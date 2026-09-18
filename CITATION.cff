@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper and the exact repository commit used."
+type: software
+title: "Colomo–Pronko frozen-corner ASM reproducibility companion"
+authors:
+  - family-names: Li
+    given-names: Yinjie
+repository-code: "https://github.com/mohammed-yj/colomo-pronko-frozen-corner"
+url: "https://github.com/mohammed-yj/colomo-pronko-frozen-corner"
+license: MIT
+abstract: "Finite-dimensional Lean algebra and exact verification accompanying the paper. MIT applies only to software, certificates, and repository documentation; see LICENSE_SCOPE.md."
+preferred-citation:
+  type: unpublished
+  title: "The Colomo–Pronko conjecture for frozen-corner alternating sign matrices"
+  authors:
+    - family-names: Li
+      given-names: Yinjie
+  year: 2026
+  url: "https://github.com/mohammed-yj/colomo-pronko-frozen-corner/blob/main/paper/colomo-pronko-conjecture.pdf"
